@@ -1,0 +1,244 @@
+
+a {
+  color: black;
+}
+
+body {
+background: #eeebdd;
+max-height: 2000px;
+max-width: 1500px;
+min-width: 1200px;
+}
+/*************TEXT ELEMENTS***********/
+
+h1 {
+  color: #2b2e4a;
+  font-family: 'Special Elite', cursive;
+  font-size: 120px;
+  font-weight: bolder;
+  letter-spacing: 20px;
+  word-spacing: 20px;
+  margin: 0;
+  position: relative;
+  top: 250px;
+}
+
+h2 {
+  color: #2b2e4a;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h4, h3 {
+  color: #a9294f;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 100;
+}
+
+p {
+  color: #a9294f;
+  font-family: "Lucida Console", "Courier", monospace;
+  font-weight: normal;
+  text-align: justify;
+}
+
+/**********NAVIGATION BAR**********/
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 26px;
+  color: #a9294f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: inherit;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 26px;
+  color: #a9294f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 26px;
+  border: none;
+  outline: none;
+  color: #a9294f;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;/* Important for vertical align on mobile phones */
+}
+
+/* Add a background color to navbar links on hover */
+.navbar a:hover {
+  color: black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eeebdd;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #a9294f;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #a9294f;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/**********SCROLLBAR**********/
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(155, 93, 33, 0);
+  margin: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a9294f;
+  border-radius: 5px;
+}
+
+/***************HOME**********/
+.malp-title {
+  position: absolute;
+  height: 450px;
+  width: 1400px;
+  top: 250px;
+}
+
+.jcd {
+  position: absolute;
+  top: 580px;
+  left: 350px;
+
+}
+
+}
+
+.subtitle {
+  position: absolute;
+  top: 500px;
+  left: 500px;}
+
+/*****portfoliogallery*****/
+
+.gallery {
+  margin: 10px 50px;
+  position: absolute;
+  top: 250px;
+}
+
+.gallery img {
+  transition: 1s;
+  padding: 2px;
+  width: 200px;
+}
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+.correct-height {
+  height: 285px;
+}
+
+.correct-height2 {
+  height: 160px;
+}
+
+/*****SET WORK*****/
+
+.title-set {
+  color: #a9294f;
+  font-family: 'Special Elite', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 400px;
+  top: 150px;
+}
+
+.WYR {
+  font-weight: bold;
+  position: absolute;
+  top: 350px;
+  width: 1250px;
+  left: 60px;
+}
+
+#WYR {
+  top: 500px;
+  left: 10px;
+}
+
+.The-Play {
+  font-weight: bold;
+  position: absolute;
+  top: 700px;
+  width: 1250px;
+  left: 60px;}
+
+#stbedes {
+    top: 850px;
+    left: 10px;
+  }
+
+.French {
+font-weight: bold;
+left: 60px;
+position: absolute;
+top: 1100px;
+width: 1250px;
+}
+
+#paris {top: 1300px;}
+
+.VR {
+  position: absolute;
+  top: 1700px;
+  left: 60px;
+}
+
+.video {
+  position: absolute;
+  top: 1820px;
+  left: 50px;
+}
